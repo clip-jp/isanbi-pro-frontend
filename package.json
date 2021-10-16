@@ -4,7 +4,7 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "node .output/server/index.mjs",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir='.nuxt/dist' --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "nuxt-windicss": "^2.0.1",
